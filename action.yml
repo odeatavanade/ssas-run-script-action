@@ -8,6 +8,9 @@ inputs:
   scripts:
     description: 'Ordered coma separated list of scripts to execute'
     required: true
+  modelName:
+    description: 'Name of the model to create / to deploy to'
+    required: true
   analysisInstance:
     description: 'Full name of the Analysis Service Instance'
     required: true
