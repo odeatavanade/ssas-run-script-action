@@ -19,5 +19,5 @@ runs:
   using: "composite"
   steps:
     - run: |
-        script.ps1
+        ${{ github.action_path }}/script.ps1
       shell: pwsh
