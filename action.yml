@@ -6,7 +6,7 @@ branding:
   color: 'orange'
 inputs:
   scripts:
-    description: 'Ordered list of scripts to execute'
+    description: 'Ordered coma separated list of scripts to execute'
     required: true
   analysisInstance:
     description: 'Full name of the Analysis Service Instance'
